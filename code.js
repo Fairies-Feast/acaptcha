@@ -1,6 +1,7 @@
-/*
-Can be used in any application for free.
-No credit required.
-aCaptcha {GAMMA VERSION}
-*/
-document.addEventListener("DOMContentLoaded", finish())
+function whenIsTrue(operator, run) {
+  setInterval(function(){
+    if (operator == true) {
+      run()
+    }
+  }, 0500)
+}
